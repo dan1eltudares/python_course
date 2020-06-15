@@ -11,6 +11,7 @@
 '''
 
 # First case, without challenge mode:
+
 def rock_paper_scissors(player1,player2):
     if player1 == 'paper' and player2 == 'scissors':
         return 'scissors win!'
@@ -28,7 +29,10 @@ def rock_paper_scissors(player1,player2):
         return 'invalid input'
 
 
+#---------------------------------------------------------------------------------------------------------
+
 # Second case, with challenge mode:
+
 def rock_paper_scissors(player1,player2):
     if (player1 == 'paper' and player2 == 'scissors') or (player1 == 'scissors' and player2 == 'paper'):
         return 'scissors win!'
@@ -45,7 +49,10 @@ def rock_paper_scissors(player1,player2):
     else:
         return 'invalid input'
 
+#---------------------------------------------------------------------------------------------------------
+
 # challenge mode with nested IF:
+
 def rock_paper_scissors(player1,player2):
     if player1 == 'paper':
         if player2 == 'scissors':
@@ -71,9 +78,10 @@ def rock_paper_scissors(player1,player2):
     else:
         return 'invalid input'
 
-
+#---------------------------------------------------------------------------------------------------------
 
 #ultra challenge mode with user input:
+
 def rock_paper_scissors(player1,player2):
     if (player1 == 'paper' and player2 == 'scissors') or (player1 == 'scissors' and player2 == 'paper'):
         print('scissors win!')
@@ -94,10 +102,12 @@ print("Player 1 - Enter your option (options: paper, rock, scissors)")
 player1 = input()
 print("Player 2 - Enter your option (options: paper, rock, scissors)")
 player2 = input()
+
 rock_paper_scissors(player1,player2)
 
+#---------------------------------------------------------------------------------------------------------
 
-
+#Test cases
 
 print(rock_paper_scissors('paper', 'scissors') == 'scissors win!')
 print(rock_paper_scissors('scissors', 'rock') == 'rock wins!')
