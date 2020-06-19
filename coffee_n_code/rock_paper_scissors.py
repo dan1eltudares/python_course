@@ -64,7 +64,7 @@ def rock_paper_scissors(player1,player2):
 #ultra challenge mode with user input:
 def rock_paper_scissors(player1,player2):
     if player1 == player2:
-        print 'draw!'
+        print('draw!')
     elif (player1 == 'paper' and player2 == 'scissors') or (player1 == 'scissors' and player2 == 'paper'):
         print('scissors win!')
     elif (player1 == 'scissors' and player2 == 'rock') or (player1 == 'rock' and player2 == 'scissors'):
