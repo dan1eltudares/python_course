@@ -1,5 +1,4 @@
 # Switch Interface validator
-# Challange description here: https://github.com/Shopify/dagobah/blob/master/challanges/01/README.md
 
 import re
 
